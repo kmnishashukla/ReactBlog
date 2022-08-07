@@ -1,0 +1,124 @@
+blog data
+>>npm i bcrypt
+
+
+
+############register##############
+http://localhost:3000/auth/register
+userdata
+{
+    "username":"nisha",
+    "email":"nisha@gmail.com",
+    "password":"123"
+
+}
+################login#########
+http://localhost:3000/api/login
+
+{
+    
+    "email":"nisha12@gmail.com",
+    "password":"123"
+
+}
+#######upadte account#########
+http://localhost:3000/api/users/619e62aef8aace2567084ab0
+{
+    "userId":"619e62aef8aace2567084ab0",
+    "email":"nisha190@gmail.com",
+    "password":"123",
+    "username":"nishi"
+
+}
+############blogdata#############
+http://localhost:3000/api/users/619e5c8a41a21784dc0d0eec
+######post data#####################
+http://localhost:3000/api/post
+
+{
+    "title":"Cycling worked",
+    "desc":"Cycling is important",
+    "username":"manisha",
+    "categories":"packet"
+}
+o/p:
+{
+    "success": true,
+    "message": "Post created successfully",
+    "post": {
+        "title": "Cycling worked",
+        "desc": "Cycling is important",
+        "username": "manisha",
+        "categories": [
+            "packet"
+        ],
+        "_id": "61a10618460e3eb23ccf45a9",
+        "createdAt": "2021-11-26T16:06:48.602Z",
+        "updatedAt": "2021-11-26T16:06:48.602Z",
+        "__v": 0
+    }
+}
+####################################################
+http://localhost:3000/api/post/61a10618460e3eb23ccf45a9
+{
+    "title":"Cycling worked",
+    "desc":"Cycling is important",
+    "username":"manisha",
+    "categories":"packets"
+}
+####
+{
+    "_id": "61a10618460e3eb23ccf45a9",
+    "title": "Cycling worked",
+    "desc": "Cycling is important",
+    "username": "manisha",
+    "categories": [
+        "packets"
+    ],
+    "createdAt": "2021-11-26T16:06:48.602Z",
+    "updatedAt": "2021-11-26T16:36:36.806Z",
+    "__v": 0
+}
+######
+{
+    "title":"Nature Beauty",
+    "desc":"Nature is important part of life",
+    "username":"nisha",
+    "categories":"packet"
+}
+#################post findall api###############
+http://localhost:3000/api/posts
+#####
+http://localhost:3000/api/posts?user=nisha
+##########Category api##############
+http://localhost:3000/api/category
+####
+{
+    "name":"music"
+}
+o/p:
+{
+    "success": true,
+    "message": "Category created successfully",
+    "category": {
+        "name": "music",
+        "_id": "61a839c6f8f05ca03255f0e0",
+        "createdAt": "2021-12-02T03:13:10.875Z",
+        "updatedAt": "2021-12-02T03:13:10.875Z",
+        "__v": 0
+    }
+}
+
+
+
+#########################################################
+Date:2/12/2021
+return process.dlopen(module, path.toNamespacedPath(filename));
+>>nvm install --lts
+>>npm update
+>>npm i multer
+##############################
+>>npm i axios
+
+
+
